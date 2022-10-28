@@ -34,11 +34,9 @@ def class_text_to_int(row_label):
        # 'normal': (2, 'normal')}
     #return VOC_LABELS[row_label][0]
     if row_label == 'climbing':
-        return 1
-       elif row_label == 'normal':
-          return 2
+       return 1
     else:
-      return 0
+      return 2
 
 
 def split(df, group):
